@@ -1707,7 +1707,7 @@ License: For each use you must have a valid license purchased only from above li
 								</a>
 								<!--end::Logo image-->
 								<!--begin::Logo image-->
-								<span class="mx-5 fs-6 fw-bold text-gray-600 pt-1" href="https://keenthemes.com">© 2021 Keenthemes Inc.</span>
+								<span class="mx-5 fs-6 fw-bold text-gray-600 pt-1" href="https://keenthemes.com">© 2021 PT Validata Teknologi</span>
 								<!--end::Logo image-->
 							</div>
 							<!--end::Copyright-->
