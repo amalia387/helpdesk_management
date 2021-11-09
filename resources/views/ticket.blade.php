@@ -274,7 +274,7 @@
 																	<th class="min-w-140px">Reported</th>
 																	<th class="min-w-120px">Kategori</th>
 																	<th class="min-w-150px">Deskripsi</th>
-																	<th class="min-w-100px">Status</th>
+																	<th class="min-w-100px">Priority</th>
 																	<th class="min-w-100px">Action</th>
 																</tr>
 															</thead>
@@ -288,7 +288,7 @@
 																	<td>Hardware</td>
 																	<td>Maintenance printer</td>
 																	<td>
-																		<span class="badge badge-light-success">Approved</span>	
+																		<span class="badge badge-light-success">Medium</span>	
 																	</td>
 																	<td class="text-end">
 																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
