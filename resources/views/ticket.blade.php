@@ -145,9 +145,7 @@
 										<!--end::Menu-->
 									</div>
 									<!--end::Wrapper-->
-									<!--begin::Button-->
-									<a href="#" class="btn btn-sm btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app" id="kt_toolbar_primary_button">Create</a>
-									<!--end::Button-->
+									
 								</div>
 								<!--end::Actions-->
 							</div>
@@ -260,651 +258,85 @@
 									<!--begin::Card-->
 									<div class="card">
 										<!--begin::Card body-->
-										<div class="card-body py-2 me-xxl-9">
+										<div class="card-body py-7 me-xxl-9">
 											<!--begin::Layout-->
-											<div class="d-flex flex-column flex-xl-row">
-												<!--begin::Content-->
-												<div class="flex-lg-row-fluid">
-													<!--begin::Tickets list-->
-													<div class="card">
-														<!--begin::Body-->
-														<div class="card-body py-14 me-lg-10">
-															<!--begin::Search form-->
-															<form method="post" action="#" class="form">
-																<!--begin::Input wrapper-->
-																<div class="position-relative mb-15 pt-1">
-																	<!--begin::Svg Icon | path: icons/duotone/General/Search.svg-->
-																	<span class="svg-icon svg-icon-1 svg-icon-primary position-absolute top-50 translate-middle ms-9">
-																		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																				<rect x="0" y="0" width="24" height="24" />
-																				<path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																				<path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero" />
-																			</g>
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																	<input type="text" class="form-control form-control-lg form-control-solid ps-14" name="search" value="" placeholder="Search" />
-																</div>
-																<!--end::Input wrapper-->
-															</form>
-															<!--end::Search form-->
-															<!--begin::Heading-->
-															<h1 class="text-dark mb-9 fw-bolder">Public Tickets</h1>
-															<!--end::Heading-->
-															<!--begin::Tickets-->
-															<div class="mb-0">
-																<!--begin::Ticket-->
-																<div class="d-flex mb-10">
-																	<!--begin::Symbol-->
-																	<!--begin::Svg Icon | path: icons/duotone/Files/File-done.svg-->
-																	<span class="svg-icon svg-icon-2x me-5 ms-n1 mt-2 svg-icon-success">
-																		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																				<polygon points="0 0 24 0 24 24 0 24" />
-																				<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z M10.875,15.75 C11.1145833,15.75 11.3541667,15.6541667 11.5458333,15.4625 L15.3791667,11.6291667 C15.7625,11.2458333 15.7625,10.6708333 15.3791667,10.2875 C14.9958333,9.90416667 14.4208333,9.90416667 14.0375,10.2875 L10.875,13.45 L9.62916667,12.2041667 C9.29375,11.8208333 8.67083333,11.8208333 8.2875,12.2041667 C7.90416667,12.5875 7.90416667,13.1625 8.2875,13.5458333 L10.2041667,15.4625 C10.3958333,15.6541667 10.6354167,15.75 10.875,15.75 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																				<path d="M10.875,15.75 C10.6354167,15.75 10.3958333,15.6541667 10.2041667,15.4625 L8.2875,13.5458333 C7.90416667,13.1625 7.90416667,12.5875 8.2875,12.2041667 C8.67083333,11.8208333 9.29375,11.8208333 9.62916667,12.2041667 L10.875,13.45 L14.0375,10.2875 C14.4208333,9.90416667 14.9958333,9.90416667 15.3791667,10.2875 C15.7625,10.6708333 15.7625,11.2458333 15.3791667,11.6291667 L11.5458333,15.4625 C11.3541667,15.6541667 11.1145833,15.75 10.875,15.75 Z" fill="#000000" />
-																			</g>
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																	<!--end::Symbol-->
-																	<!--begin::Section-->
-																	<div class="d-flex flex-column">
-																		<!--begin::Content-->
-																		<div class="d-flex align-items-center mb-2">
-																			<!--begin::Title-->
-																			<a href="apps/support-center/tickets/view.html" class="text-dark text-hover-primary fs-4 me-3 fw-bold">How to use Netronic with Django Framework?</a>
-																			<!--end::Title-->
-																			<!--begin::Label-->
-																			<span class="badge badge-light my-1">React</span>
-																			<!--end::Label-->
-																		</div>
-																		<!--end::Content-->
-																		<!--begin::Text-->
-																		<span class="text-muted fw-bold fs-6">By KeenTHemes to save tons and more to time money projects are listed amazing
-																		<br />outstanding projects are listed</span>
-																		<!--end::Text-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Ticket-->
-																<!--begin::Ticket-->
-																<div class="d-flex mb-10">
-																	<!--begin::Symbol-->
-																	<!--begin::Svg Icon | path: icons/duotone/Files/File-Plus.svg-->
-																	<span class="svg-icon svg-icon-2x me-5 ms-n1 mt-2 svg-icon-warning">
-																		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																				<polygon points="0 0 24 0 24 24 0 24" />
-																				<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																				<path d="M11,14 L9,14 C8.44771525,14 8,13.5522847 8,13 C8,12.4477153 8.44771525,12 9,12 L11,12 L11,10 C11,9.44771525 11.4477153,9 12,9 C12.5522847,9 13,9.44771525 13,10 L13,12 L15,12 C15.5522847,12 16,12.4477153 16,13 C16,13.5522847 15.5522847,14 15,14 L13,14 L13,16 C13,16.5522847 12.5522847,17 12,17 C11.4477153,17 11,16.5522847 11,16 L11,14 Z" fill="#000000" />
-																			</g>
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																	<!--end::Symbol-->
-																	<!--begin::Section-->
-																	<div class="d-flex flex-column">
-																		<!--begin::Content-->
-																		<div class="d-flex align-items-center mb-2">
-																			<!--begin::Title-->
-																			<a href="apps/support-center/tickets/view.html" class="text-dark text-hover-primary fs-4 me-3 fw-bold">Keen Admin npm issue</a>
-																			<!--end::Title-->
-																			<!--begin::Label-->
-																			<span class="badge badge-light my-1">Angular</span>
-																			<!--end::Label-->
-																		</div>
-																		<!--end::Content-->
-																		<!--begin::Text-->
-																		<span class="text-muted fw-bold fs-6">By KeenTHemes to save tons and more to time money projects</span>
-																		<!--end::Text-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Ticket-->
-																<!--begin::Ticket-->
-																<div class="d-flex mb-10">
-																	<!--begin::Symbol-->
-																	<!--begin::Svg Icon | path: icons/duotone/Files/File-done.svg-->
-																	<span class="svg-icon svg-icon-2x me-5 ms-n1 mt-2 svg-icon-success">
-																		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																				<polygon points="0 0 24 0 24 24 0 24" />
-																				<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z M10.875,15.75 C11.1145833,15.75 11.3541667,15.6541667 11.5458333,15.4625 L15.3791667,11.6291667 C15.7625,11.2458333 15.7625,10.6708333 15.3791667,10.2875 C14.9958333,9.90416667 14.4208333,9.90416667 14.0375,10.2875 L10.875,13.45 L9.62916667,12.2041667 C9.29375,11.8208333 8.67083333,11.8208333 8.2875,12.2041667 C7.90416667,12.5875 7.90416667,13.1625 8.2875,13.5458333 L10.2041667,15.4625 C10.3958333,15.6541667 10.6354167,15.75 10.875,15.75 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																				<path d="M10.875,15.75 C10.6354167,15.75 10.3958333,15.6541667 10.2041667,15.4625 L8.2875,13.5458333 C7.90416667,13.1625 7.90416667,12.5875 8.2875,12.2041667 C8.67083333,11.8208333 9.29375,11.8208333 9.62916667,12.2041667 L10.875,13.45 L14.0375,10.2875 C14.4208333,9.90416667 14.9958333,9.90416667 15.3791667,10.2875 C15.7625,10.6708333 15.7625,11.2458333 15.3791667,11.6291667 L11.5458333,15.4625 C11.3541667,15.6541667 11.1145833,15.75 10.875,15.75 Z" fill="#000000" />
-																			</g>
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																	<!--end::Symbol-->
-																	<!--begin::Section-->
-																	<div class="d-flex flex-column">
-																		<!--begin::Content-->
-																		<div class="d-flex align-items-center mb-2">
-																			<!--begin::Title-->
-																			<a href="apps/support-center/tickets/view.html" class="text-dark text-hover-primary fs-4 me-3 fw-bold">Metronic theme authentication to node.js / strapi backend</a>
-																			<!--end::Title-->
-																			<!--begin::Label-->
-																			<span class="badge badge-light my-1">warning</span>
-																			<!--end::Label-->
-																		</div>
-																		<!--end::Content-->
-																		<!--begin::Text-->
-																		<span class="text-muted fw-bold fs-6">By KeenTHemes to save tons and more to time money projects</span>
-																		<!--end::Text-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Ticket-->
-																<!--begin::Ticket-->
-																<div class="d-flex mb-10">
-																	<!--begin::Symbol-->
-																	<!--begin::Svg Icon | path: icons/duotone/Files/File-done.svg-->
-																	<span class="svg-icon svg-icon-2x me-5 ms-n1 mt-2 svg-icon-success">
-																		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																				<polygon points="0 0 24 0 24 24 0 24" />
-																				<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z M10.875,15.75 C11.1145833,15.75 11.3541667,15.6541667 11.5458333,15.4625 L15.3791667,11.6291667 C15.7625,11.2458333 15.7625,10.6708333 15.3791667,10.2875 C14.9958333,9.90416667 14.4208333,9.90416667 14.0375,10.2875 L10.875,13.45 L9.62916667,12.2041667 C9.29375,11.8208333 8.67083333,11.8208333 8.2875,12.2041667 C7.90416667,12.5875 7.90416667,13.1625 8.2875,13.5458333 L10.2041667,15.4625 C10.3958333,15.6541667 10.6354167,15.75 10.875,15.75 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																				<path d="M10.875,15.75 C10.6354167,15.75 10.3958333,15.6541667 10.2041667,15.4625 L8.2875,13.5458333 C7.90416667,13.1625 7.90416667,12.5875 8.2875,12.2041667 C8.67083333,11.8208333 9.29375,11.8208333 9.62916667,12.2041667 L10.875,13.45 L14.0375,10.2875 C14.4208333,9.90416667 14.9958333,9.90416667 15.3791667,10.2875 C15.7625,10.6708333 15.7625,11.2458333 15.3791667,11.6291667 L11.5458333,15.4625 C11.3541667,15.6541667 11.1145833,15.75 10.875,15.75 Z" fill="#000000" />
-																			</g>
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																	<!--end::Symbol-->
-																	<!--begin::Section-->
-																	<div class="d-flex flex-column">
-																		<!--begin::Content-->
-																		<div class="d-flex align-items-center mb-2">
-																			<!--begin::Title-->
-																			<a href="apps/support-center/tickets/view.html" class="text-dark text-hover-primary fs-4 me-3 fw-bold">How to use Metronic with Django Framework?</a>
-																			<!--end::Title-->
-																			<!--begin::Label-->
-																			<span class="badge badge-light my-1">HTML</span>
-																			<!--end::Label-->
-																		</div>
-																		<!--end::Content-->
-																		<!--begin::Text-->
-																		<span class="text-muted fw-bold fs-6">By KeenTHemes to save tons and more to time money projects are listed amazing
-																		<br />outstanding projects are listed</span>
-																		<!--end::Text-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Ticket-->
-																<!--begin::Ticket-->
-																<div class="d-flex mb-10">
-																	<!--begin::Symbol-->
-																	<!--begin::Svg Icon | path: icons/duotone/Files/File-Plus.svg-->
-																	<span class="svg-icon svg-icon-2x me-5 ms-n1 mt-2 svg-icon-warning">
-																		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																				<polygon points="0 0 24 0 24 24 0 24" />
-																				<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																				<path d="M11,14 L9,14 C8.44771525,14 8,13.5522847 8,13 C8,12.4477153 8.44771525,12 9,12 L11,12 L11,10 C11,9.44771525 11.4477153,9 12,9 C12.5522847,9 13,9.44771525 13,10 L13,12 L15,12 C15.5522847,12 16,12.4477153 16,13 C16,13.5522847 15.5522847,14 15,14 L13,14 L13,16 C13,16.5522847 12.5522847,17 12,17 C11.4477153,17 11,16.5522847 11,16 L11,14 Z" fill="#000000" />
-																			</g>
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																	<!--end::Symbol-->
-																	<!--begin::Section-->
-																	<div class="d-flex flex-column">
-																		<!--begin::Content-->
-																		<div class="d-flex align-items-center mb-2">
-																			<!--begin::Title-->
-																			<a href="apps/support-center/tickets/view.html" class="text-dark text-hover-primary fs-4 me-3 fw-bold">Reducing footprint of Start theme</a>
-																			<!--end::Title-->
-																			<!--begin::Label-->
-																			<span class="badge badge-light my-1">Angular</span>
-																			<!--end::Label-->
-																		</div>
-																		<!--end::Content-->
-																		<!--begin::Text-->
-																		<span class="text-muted fw-bold fs-6">By KeenTHemes to save tons and more to time money projects</span>
-																		<!--end::Text-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Ticket-->
-																<!--begin::Ticket-->
-																<div class="d-flex mb-10">
-																	<!--begin::Symbol-->
-																	<!--begin::Svg Icon | path: icons/duotone/Files/File-done.svg-->
-																	<span class="svg-icon svg-icon-2x me-5 ms-n1 mt-2 svg-icon-success">
-																		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																				<polygon points="0 0 24 0 24 24 0 24" />
-																				<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z M10.875,15.75 C11.1145833,15.75 11.3541667,15.6541667 11.5458333,15.4625 L15.3791667,11.6291667 C15.7625,11.2458333 15.7625,10.6708333 15.3791667,10.2875 C14.9958333,9.90416667 14.4208333,9.90416667 14.0375,10.2875 L10.875,13.45 L9.62916667,12.2041667 C9.29375,11.8208333 8.67083333,11.8208333 8.2875,12.2041667 C7.90416667,12.5875 7.90416667,13.1625 8.2875,13.5458333 L10.2041667,15.4625 C10.3958333,15.6541667 10.6354167,15.75 10.875,15.75 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																				<path d="M10.875,15.75 C10.6354167,15.75 10.3958333,15.6541667 10.2041667,15.4625 L8.2875,13.5458333 C7.90416667,13.1625 7.90416667,12.5875 8.2875,12.2041667 C8.67083333,11.8208333 9.29375,11.8208333 9.62916667,12.2041667 L10.875,13.45 L14.0375,10.2875 C14.4208333,9.90416667 14.9958333,9.90416667 15.3791667,10.2875 C15.7625,10.6708333 15.7625,11.2458333 15.3791667,11.6291667 L11.5458333,15.4625 C11.3541667,15.6541667 11.1145833,15.75 10.875,15.75 Z" fill="#000000" />
-																			</g>
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																	<!--end::Symbol-->
-																	<!--begin::Section-->
-																	<div class="d-flex flex-column">
-																		<!--begin::Content-->
-																		<div class="d-flex align-items-center mb-2">
-																			<!--begin::Title-->
-																			<a href="apps/support-center/tickets/view.html" class="text-dark text-hover-primary fs-4 me-3 fw-bold">Metronic theme node.js / strapi backend</a>
-																			<!--end::Title-->
-																			<!--begin::Label-->
-																			<span class="badge badge-light my-1">React</span>
-																			<!--end::Label-->
-																		</div>
-																		<!--end::Content-->
-																		<!--begin::Text-->
-																		<span class="text-muted fw-bold fs-6">By KeenTHemes to save tons and more to time money projects are listed amazing
-																		<br />outstanding projects are listed</span>
-																		<!--end::Text-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Ticket-->
-																<!--begin::Ticket-->
-																<div class="d-flex mb-10">
-																	<!--begin::Symbol-->
-																	<!--begin::Svg Icon | path: icons/duotone/Files/File-Plus.svg-->
-																	<span class="svg-icon svg-icon-2x me-5 ms-n1 mt-2 svg-icon-warning">
-																		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																				<polygon points="0 0 24 0 24 24 0 24" />
-																				<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																				<path d="M11,14 L9,14 C8.44771525,14 8,13.5522847 8,13 C8,12.4477153 8.44771525,12 9,12 L11,12 L11,10 C11,9.44771525 11.4477153,9 12,9 C12.5522847,9 13,9.44771525 13,10 L13,12 L15,12 C15.5522847,12 16,12.4477153 16,13 C16,13.5522847 15.5522847,14 15,14 L13,14 L13,16 C13,16.5522847 12.5522847,17 12,17 C11.4477153,17 11,16.5522847 11,16 L11,14 Z" fill="#000000" />
-																			</g>
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																	<!--end::Symbol-->
-																	<!--begin::Section-->
-																	<div class="d-flex flex-column">
-																		<!--begin::Content-->
-																		<div class="d-flex align-items-center mb-2">
-																			<!--begin::Title-->
-																			<a href="apps/support-center/tickets/view.html" class="text-dark text-hover-primary fs-4 me-3 fw-bold">Keen Admin npm issue</a>
-																			<!--end::Title-->
-																			<!--begin::Label-->
-																			<span class="badge badge-light my-1">View</span>
-																			<!--end::Label-->
-																		</div>
-																		<!--end::Content-->
-																		<!--begin::Text-->
-																		<span class="text-muted fw-bold fs-6">By KeenTHemes to save tons and more to time money projects</span>
-																		<!--end::Text-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Ticket-->
-																<!--begin::Ticket-->
-																<div class="d-flex">
-																	<!--begin::Symbol-->
-																	<!--begin::Svg Icon | path: icons/duotone/Files/File-done.svg-->
-																	<span class="svg-icon svg-icon-2x me-5 ms-n1 mt-2 svg-icon-success">
-																		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																			<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																				<polygon points="0 0 24 0 24 24 0 24" />
-																				<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z M10.875,15.75 C11.1145833,15.75 11.3541667,15.6541667 11.5458333,15.4625 L15.3791667,11.6291667 C15.7625,11.2458333 15.7625,10.6708333 15.3791667,10.2875 C14.9958333,9.90416667 14.4208333,9.90416667 14.0375,10.2875 L10.875,13.45 L9.62916667,12.2041667 C9.29375,11.8208333 8.67083333,11.8208333 8.2875,12.2041667 C7.90416667,12.5875 7.90416667,13.1625 8.2875,13.5458333 L10.2041667,15.4625 C10.3958333,15.6541667 10.6354167,15.75 10.875,15.75 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																				<path d="M10.875,15.75 C10.6354167,15.75 10.3958333,15.6541667 10.2041667,15.4625 L8.2875,13.5458333 C7.90416667,13.1625 7.90416667,12.5875 8.2875,12.2041667 C8.67083333,11.8208333 9.29375,11.8208333 9.62916667,12.2041667 L10.875,13.45 L14.0375,10.2875 C14.4208333,9.90416667 14.9958333,9.90416667 15.3791667,10.2875 C15.7625,10.6708333 15.7625,11.2458333 15.3791667,11.6291667 L11.5458333,15.4625 C11.3541667,15.6541667 11.1145833,15.75 10.875,15.75 Z" fill="#000000" />
-																			</g>
-																		</svg>
-																	</span>
-																	<!--end::Svg Icon-->
-																	<!--end::Symbol-->
-																	<!--begin::Section-->
-																	<div class="d-flex flex-column">
-																		<!--begin::Content-->
-																		<div class="d-flex align-items-center mb-2">
-																			<!--begin::Title-->
-																			<a href="apps/support-center/tickets/view.html" class="text-dark text-hover-primary fs-4 me-3 fw-bold">How to use Metronic with Django Framework?</a>
-																			<!--end::Title-->
-																			<!--begin::Label-->
-																			<span class="badge badge-light my-1">PHP</span>
-																			<!--end::Label-->
-																		</div>
-																		<!--end::Content-->
-																		<!--begin::Text-->
-																		<span class="text-muted fw-bold fs-6">By KeenTHemes to save tons and more to time money projects are listed amazing
-																		<br />outstanding projects are listed</span>
-																		<!--end::Text-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Ticket-->
-															</div>
-															<!--end::Tickets-->
-															<!--begin::Pagination-->
-															<ul class="pagination mt-10">
-																<li class="page-item previous disabled">
-																	<a href="#" class="page-link">
-																		<i class="previous"></i>
+											<!--begin::Table-->
+											<div class="mb-14">
+													<!--begin::Table container-->
+													<div class="table-responsive">
+														<!--begin::Table-->
+														<table class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4">
+															<!--begin::Table head-->
+															<thead>
+																<tr class="fw-bolder fs-6 text-gray-800 text-center border-0 bg-light">
+																	<th class="min-w-30px">No</th>
+																	<th class="min-w-100px">Tanggal</th>
+																	<th class="min-w-140px">Reported</th>
+																	<th class="min-w-120px">Kategori</th>
+																	<th class="min-w-150px">Deskripsi</th>
+																	<th class="min-w-100px">Status</th>
+																	<th class="min-w-100px">Action</th>
+																</tr>
+															</thead>
+															<!--end::Table head-->
+															<!--begin::Table body-->
+															<tbody class="border-bottom border-dashed">
+																<tr class="fw-bold fs-6 text-gray-800 text-center">
+																	<td>1</td>
+																	<td>10-10-2021</td>
+																	<td>Nuri</td>
+																	<td>Hardware</td>
+																	<td>Maintenance printer</td>
+																	<td>
+																		<span class="badge badge-light-success">Approved</span>	
+																	</td>
+																	<td class="text-end">
+																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
+																		<!--begin::Svg Icon | path: icons/duotone/General/Settings-1.svg-->
+																		<span class="svg-icon svg-icon-3">
+																			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24" height="24" />
+																					<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																					<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																				</g>
+																			</svg>
+																		</span>
+																		<!--end::Svg Icon-->
 																	</a>
-																</li>
-																<li class="page-item">
-																	<a href="#" class="page-link">1</a>
-																</li>
-																<li class="page-item active">
-																	<a href="#" class="page-link">2</a>
-																</li>
-																<li class="page-item">
-																	<a href="#" class="page-link">3</a>
-																</li>
-																<li class="page-item">
-																	<a href="#" class="page-link">4</a>
-																</li>
-																<li class="page-item">
-																	<a href="#" class="page-link">5</a>
-																</li>
-																<li class="page-item">
-																	<a href="#" class="page-link">6</a>
-																</li>
-																<li class="page-item next">
-																	<a href="#" class="page-link">
-																		<i class="next"></i>
+																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
+																		<!--begin::Svg Icon | path: icons/duotone/Communication/Write.svg-->
+																		<span class="svg-icon svg-icon-3">
+																			<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																				<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																				<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																			</svg>
+																		</span>
+																		<!--end::Svg Icon-->
 																	</a>
-																</li>
-															</ul>
-															<!--end::Pagination-->
-														</div>
-														<!--end::Body-->
+																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm">
+																		<!--begin::Svg Icon | path: icons/duotone/General/Trash.svg-->
+																		<span class="svg-icon svg-icon-3">
+																			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																					<rect x="0" y="0" width="24" height="24" />
+																					<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																					<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																				</g>
+																			</svg>
+																		</span>
+																		<!--end::Svg Icon-->
+																	</a>
+																</td>
+																</tr>
+															</tbody>
+															<!--end::Table body-->
+														</table>
+														<!--end::Table-->
 													</div>
-													<!--end::Tickets list-->
+													<!--end::Table container-->
 												</div>
-												<!--end::Content-->
-												<!--begin::Sidebar-->
-												<div class="flex-column flex-lg-row-auto w-100 mw-xl-400px mb-10">
-													<!--begin::More channels-->
-													<div class="card bg-primary bg-opacity-5 mt-15">
-														<!--begin::Body-->
-														<div class="card-body p-12">
-															<!--begin::Title-->
-															<h2 class="text-dark fw-bolder mb-11">More Channels</h2>
-															<!--end::Title-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-10">
-																<!--begin::Icon-->
-																<i class="bi bi-file-earmark-text text-primary fs-1 me-5"></i>
-																<!--end::SymIconbol-->
-																<!--begin::Info-->
-																<div class="d-flex flex-column">
-																	<h5 class="text-gray-800 fw-bolder">Project Briefing</h5>
-																	<!--begin::Section-->
-																	<div class="fw-bold">
-																		<!--begin::Desc-->
-																		<span class="text-muted">Check out our</span>
-																		<!--end::Desc-->
-																		<!--begin::Link-->
-																		<a href="#" class="link-primary">Support Policy</a>
-																		<!--end::Link-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Info-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-10">
-																<!--begin::Icon-->
-																<i class="bi bi-chat-square-text-fill text-primary fs-1 me-5"></i>
-																<!--end::SymIconbol-->
-																<!--begin::Info-->
-																<div class="d-flex flex-column">
-																	<h5 class="text-gray-800 fw-bolder">More to discuss?</h5>
-																	<!--begin::Section-->
-																	<div class="fw-bold">
-																		<!--begin::Desc-->
-																		<span class="text-muted">Email us to</span>
-																		<!--end::Desc-->
-																		<!--begin::Link-->
-																		<a href="#" class="link-primary">support@keenthemes.com</a>
-																		<!--end::Link-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Info-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-10">
-																<!--begin::Icon-->
-																<i class="bi bi-twitter text-primary fs-1 me-5"></i>
-																<!--end::SymIconbol-->
-																<!--begin::Info-->
-																<div class="d-flex flex-column">
-																	<h5 class="text-gray-800 fw-bolder">Latest News</h5>
-																	<!--begin::Section-->
-																	<div class="fw-bold">
-																		<!--begin::Desc-->
-																		<span class="text-muted">Follow us at</span>
-																		<!--end::Desc-->
-																		<!--begin::Link-->
-																		<a href="#" class="link-primary">KeenThemes Twitter</a>
-																		<!--end::Link-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Info-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center">
-																<!--begin::Icon-->
-																<i class="bi bi-github text-primary fs-1 me-5"></i>
-																<!--end::SymIconbol-->
-																<!--begin::Info-->
-																<div class="d-flex flex-column">
-																	<h5 class="text-gray-800 fw-bolder">Github Access</h5>
-																	<!--begin::Section-->
-																	<div class="fw-bold">
-																		<!--begin::Desc-->
-																		<span class="text-muted">Our github repo</span>
-																		<!--end::Desc-->
-																		<!--begin::Link-->
-																		<a href="#" class="link-primary">KeenThemes Github</a>
-																		<!--end::Link-->
-																	</div>
-																	<!--end::Section-->
-																</div>
-																<!--end::Info-->
-															</div>
-															<!--end::Item-->
-														</div>
-														<!--end::Body-->
-													</div>
-													<!--end::More channels-->
-													<!--begin::Documentations-->
-													<div class="card mt-15 bg-primary bg-opacity-5">
-														<!--begin::Body-->
-														<div class="card-body px-12 py-10">
-															<!--begin::Title-->
-															<h1 class="fw-bolder text-dark mb-9">Documentation</h1>
-															<!--end::Title-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-6">
-																<!--begin::Icon-->
-																<!--begin::Svg Icon | path: icons/duotone/Navigation/Angle-double-right.svg-->
-																<span class="svg-icon svg-icon-2 ms-n1 me-3">
-																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<polygon points="0 0 24 0 24 24 0 24" />
-																			<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																			<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999)" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--end::Icon-->
-																<!--begin::Subtitle-->
-																<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-5 m-0">Metronic Admin</a>
-																<!--end::Subtitle-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-6">
-																<!--begin::Icon-->
-																<!--begin::Svg Icon | path: icons/duotone/Navigation/Angle-double-right.svg-->
-																<span class="svg-icon svg-icon-2 ms-n1 me-3">
-																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<polygon points="0 0 24 0 24 24 0 24" />
-																			<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																			<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999)" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--end::Icon-->
-																<!--begin::Subtitle-->
-																<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-5 m-0">Keen Admin</a>
-																<!--end::Subtitle-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-6">
-																<!--begin::Icon-->
-																<!--begin::Svg Icon | path: icons/duotone/Navigation/Angle-double-right.svg-->
-																<span class="svg-icon svg-icon-2 ms-n1 me-3">
-																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<polygon points="0 0 24 0 24 24 0 24" />
-																			<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																			<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999)" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--end::Icon-->
-																<!--begin::Subtitle-->
-																<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-5 m-0">Start Dashboard</a>
-																<!--end::Subtitle-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-6">
-																<!--begin::Icon-->
-																<!--begin::Svg Icon | path: icons/duotone/Navigation/Angle-double-right.svg-->
-																<span class="svg-icon svg-icon-2 ms-n1 me-3">
-																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<polygon points="0 0 24 0 24 24 0 24" />
-																			<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																			<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999)" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--end::Icon-->
-																<!--begin::Subtitle-->
-																<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-5 m-0">Dazer Niche Theme</a>
-																<!--end::Subtitle-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-6">
-																<!--begin::Icon-->
-																<!--begin::Svg Icon | path: icons/duotone/Navigation/Angle-double-right.svg-->
-																<span class="svg-icon svg-icon-2 ms-n1 me-3">
-																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<polygon points="0 0 24 0 24 24 0 24" />
-																			<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																			<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999)" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--end::Icon-->
-																<!--begin::Subtitle-->
-																<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-5 m-0">Craft Admin</a>
-																<!--end::Subtitle-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-6">
-																<!--begin::Icon-->
-																<!--begin::Svg Icon | path: icons/duotone/Navigation/Angle-double-right.svg-->
-																<span class="svg-icon svg-icon-2 ms-n1 me-3">
-																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<polygon points="0 0 24 0 24 24 0 24" />
-																			<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																			<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999)" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--end::Icon-->
-																<!--begin::Subtitle-->
-																<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-5 m-0">Dorsey Front-end</a>
-																<!--end::Subtitle-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-6">
-																<!--begin::Icon-->
-																<!--begin::Svg Icon | path: icons/duotone/Navigation/Angle-double-right.svg-->
-																<span class="svg-icon svg-icon-2 ms-n1 me-3">
-																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<polygon points="0 0 24 0 24 24 0 24" />
-																			<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																			<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999)" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--end::Icon-->
-																<!--begin::Subtitle-->
-																<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-5 m-0">Metronic Admin</a>
-																<!--end::Subtitle-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center mb-6">
-																<!--begin::Icon-->
-																<!--begin::Svg Icon | path: icons/duotone/Navigation/Angle-double-right.svg-->
-																<span class="svg-icon svg-icon-2 ms-n1 me-3">
-																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<polygon points="0 0 24 0 24 24 0 24" />
-																			<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																			<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999)" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--end::Icon-->
-																<!--begin::Subtitle-->
-																<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-5 m-0">Decalan Dashbaord</a>
-																<!--end::Subtitle-->
-															</div>
-															<!--end::Item-->
-															<!--begin::Item-->
-															<div class="d-flex align-items-center">
-																<!--begin::Icon-->
-																<!--begin::Svg Icon | path: icons/duotone/Navigation/Angle-double-right.svg-->
-																<span class="svg-icon svg-icon-2 ms-n1 me-3">
-																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																			<polygon points="0 0 24 0 24 24 0 24" />
-																			<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																			<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.5" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999)" />
-																		</g>
-																	</svg>
-																</span>
-																<!--end::Svg Icon-->
-																<!--end::Icon-->
-																<!--begin::Subtitle-->
-																<a href="#" class="fw-bold text-gray-800 text-hover-primary fs-5 m-0">Start Admin</a>
-																<!--end::Subtitle-->
-															</div>
-															<!--end::Item-->
-														</div>
-														<!--end::Body-->
-													</div>
-													<!--end::Documentations-->
-												</div>
-												<!--end::Sidebar-->
-											</div>
+												<!--end::Table-->
 											<!--end::Layout-->
 										</div>
 										<!--end::Card body-->
