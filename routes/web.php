@@ -28,3 +28,7 @@ Route::get('/login', function () {
 Route::get('/ticket', function () {
     return view('ticket');
 });
+
+Route::get('/client', function () {
+    return view('client');
+});
