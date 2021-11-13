@@ -30,4 +30,10 @@ Route::get('/tickett', function () {
     return view('ticket');
 });
 
+<<<<<<< HEAD
 Route::resource('/ticket', TicketController::class);
+=======
+Route::get('/client', function () {
+    return view('client');
+});
+>>>>>>> upstream/master
