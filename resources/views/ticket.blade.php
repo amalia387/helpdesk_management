@@ -281,14 +281,15 @@
 															<!--end::Table head-->
 															<!--begin::Table body-->
 															<tbody class="border-bottom border-dashed">
+																@foreach ($tickets as $ticket)
 																<tr class="fw-bold fs-6 text-gray-800 text-center">
-																	<td>1</td>
-																	<td>10-10-2021</td>
-																	<td>Nuri</td>
-																	<td>Hardware</td>
-																	<td>Maintenance printer</td>
+																	<td>{{ $ticket->id}}</td>
+																	<td>{{ $ticket->created_at}}</td>
+																	<td>{{ $ticket->reported}}</td>
+																	<td>{{ $ticket->kategori}}</td>
+																	<td>{{ $ticket->deskripsi}}</td>
 																	<td>
-																		<span class="badge badge-light-success">Medium</span>	
+																		<span class="badge badge-light-success">{{ $ticket->priority}}</span>	
 																	</td>
 																	<td class="text-end">
 																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
@@ -329,6 +330,7 @@
 																	</a>
 																</td>
 																</tr>
+																@endforeach
 															</tbody>
 															<!--end::Table body-->
 														</table>

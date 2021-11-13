@@ -120,7 +120,7 @@ License: For each use you must have a valid license purchased only from above li
 								<!--end::Menu wrapper-->
 								<!--begin::Toolbar-->
 								<div class="flex-equal text-end ms-1">
-									<a href="authentication/flows/basic/sign-in.html" class="btn btn-success">Sign In</a>
+									<a href="/login" class="btn btn-success">Sign In</a>
 								</div>
 								<!--end::Toolbar-->
 							</div>

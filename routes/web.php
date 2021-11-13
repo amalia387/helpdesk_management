@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TicketController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,8 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/ticket', function () {
+Route::get('/tickett', function () {
     return view('ticket');
 });
+
+Route::resource('/ticket', TicketController::class);
