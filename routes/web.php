@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TicketController;
+use App\Http\Controllers\ClientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,14 +27,9 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/tickett', function () {
-    return view('ticket');
-});
-
-<<<<<<< HEAD
 Route::resource('/ticket', TicketController::class);
-=======
-Route::get('/client', function () {
+Route::resource('/client', ClientController::class);
+
+Route::get('/clientt', function () {
     return view('client');
 });
->>>>>>> upstream/master

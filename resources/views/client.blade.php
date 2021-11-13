@@ -10,7 +10,7 @@
 								<!--begin::Page title-->
 								<div data-kt-place="true" data-kt-place-mode="prepend" data-kt-place-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center me-3 flex-wrap mb-5 mb-lg-0 lh-1">
 									<!--begin::Title-->
-									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">client</h1>
+									<h1 class="d-flex align-items-center text-dark fw-bolder my-1 fs-3">Client</h1>
 									<!--end::Title-->
 									<!--begin::Separator-->
 									<span class="h-20px border-gray-200 border-start mx-4"></span>
@@ -36,7 +36,7 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-muted">New Ticket</li>
+										<li class="breadcrumb-item text-muted">New client</li>
 										<!--end::Item-->
 										<!--begin::Item-->
 										<li class="breadcrumb-item">
@@ -44,7 +44,7 @@
 										</li>
 										<!--end::Item-->
 										<!--begin::Item-->
-										<li class="breadcrumb-item text-dark">Tickets List</li>
+										<li class="breadcrumb-item text-dark">Clients List</li>
 										<!--end::Item-->
 									</ul>
 									<!--end::Breadcrumb-->
@@ -163,10 +163,10 @@
 										<!--begin::Head-->
 										<div class="d-flex flex-stack py-8">
 											<!--begin::Title-->
-											<h2 class="fw-bolder text-white pe-2 m-0">Support Center</h2>
+											<h2 class="fw-bolder text-white pe-2 m-0">List Clients</h2>
 											<!--end::Title-->
 											<!--begin::Action-->
-											<a href="#" data-bs-toggle="modal" data-bs-target="#kt_modal_new_ticket" class="btn btn-success">Create Ticket</a>
+											<a href="#" data-bs-toggle="modal" data-bs-target="#kt_modal_new_ticket" class="btn btn-success">Create Client</a>
 											<!--end::Action-->
 										</div>
 										<!--end::Head-->
@@ -222,7 +222,7 @@
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
 												<li class="nav-item my-3">
-													<a class="btn btn-active-light-primary fw-boldest nav-link btn-color-gray-700 px-3 px-lg-8 mx-1 text-uppercase active" href="apps/support-center/tickets/list.html">tickets</a>
+													<a class="btn btn-active-light-primary fw-boldest nav-link btn-color-gray-700 px-3 px-lg-8 mx-1 text-uppercase active" href="apps/support-center/tickets/list.html">Clients</a>
 												</li>
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
@@ -268,13 +268,13 @@
 														<table class="table table-row-dashed table-row-gray-300 align-middle gs-0 gy-4">
 															<!--begin::Table head-->
 															<thead>
+															@foreach ($clients as $client)
 																<tr class="fw-bolder fs-6 text-gray-800 text-center border-0 bg-light">
 																	<th class="min-w-30px">No</th>
-																	<th class="min-w-100px">Tanggal</th>
-																	<th class="min-w-140px">Reported</th>
-																	<th class="min-w-120px">Kategori</th>
-																	<th class="min-w-150px">Deskripsi</th>
-																	<th class="min-w-100px">Priority</th>
+																	<th class="min-w-100px">Created_at</th>
+																	<th class="min-w-100px">Nama</th>
+																	<th class="min-w-140px">Email</th>
+																	<th class="min-w-120px">No Hp</th>
 																	<th class="min-w-100px">Action</th>
 																</tr>
 															</thead>
@@ -282,14 +282,11 @@
 															<!--begin::Table body-->
 															<tbody class="border-bottom border-dashed">
 																<tr class="fw-bold fs-6 text-gray-800 text-center">
-																	<td>1</td>
-																	<td>10-10-2021</td>
-																	<td>Nuri</td>
-																	<td>Hardware</td>
-																	<td>Maintenance printer</td>
-																	<td>
-																		<span class="badge badge-light-success">Medium</span>	
-																	</td>
+																	<td>{{ $client->id_client}}</td>
+																	<td>{{ $client->created_at}}</td>
+																	<td>{{ $client->nama}}</td>
+																	<td>{{ $client->email}}</td>
+																	<td>{{ $client->no_hp}}</td>
 																	<td class="text-end">
 																	<a href="#" class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
 																		<!--begin::Svg Icon | path: icons/duotone/General/Settings-1.svg-->
@@ -329,6 +326,7 @@
 																	</a>
 																</td>
 																</tr>
+															@endforeach
 															</tbody>
 															<!--end::Table body-->
 														</table>
